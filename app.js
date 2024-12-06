@@ -18,8 +18,8 @@ const app = express();
 app.use(
   cors({
     //origin: "https://legendary-tanuki-2610f2.netlify.app",
-    origin: "https://elegant-maamoul-5f38b4.netlify.app/",
-    // origin: "http://localhost:5173",
+    origin: "https://elegant-maamoul-5f38b4.netlify.app",
+    //origin: "http://localhost:5173",
     credentials: true, //access-control-allow-credentials:true
     optionSuccessStatus: 200,
   })
@@ -45,7 +45,7 @@ is ‘*’).
 */
 // app.use(
 //   cors({
-//     origin: "http://deployed-frontend.com", // Replace with your actual frontend URL
+//     origin: "http://localhost:5173/", // Replace with your actual frontend URL
 //     credentials: true, // Allows the server to accept cookies or authorization headers
 //     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Allows these HTTP methods
 //     allowedHeaders: ["Content-Type", "Authorization"], // Allows these headers
